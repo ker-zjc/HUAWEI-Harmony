@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="entry_LoginAbility">"entry_LoginAbility"</string>
+  <string name="entry_MainAbility">"entry_MainAbility"</string>
+  <string name="entry_WelcomeAbility">"entry_WelcomeAbility"</string>
+  <string name="loginability_description">"Java_Empty Ability"</string>
+  <string name="mainability_description">"Java_Empty Ability"</string>
+  <string name="welcomeability_description">"Java_Empty Ability"</string>
+</resources>

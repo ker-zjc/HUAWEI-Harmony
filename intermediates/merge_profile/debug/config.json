@@ -1,0 +1,101 @@
+{
+    "app": {
+        "bundleName": "com.example.myapplicationlogin",
+        "vendor": "example",
+        "apiVersion": {
+            "compatible": 4,
+            "target": 5,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MyApplication",
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": false
+        },
+        "abilities": [
+            {
+                "name": "com.example.myapplicationlogin.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:Timer",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+                            "extra": ""
+                        }
+                    ]
+                },
+                "orientation": "unspecified",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "homeAbility": true
+            },
+            {
+                "name": "com.example.myapplicationlogin.LoginAbility",
+                "description": "$string:loginability_description",
+                "icon": "$media:Timer",
+                "label": "$string:entry_LoginAbility",
+                "type": "page",
+                "launchType": "standard",
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+                            "extra": ""
+                        }
+                    ]
+                },
+                "orientation": "unspecified",
+                "homeAbility": false
+            },
+            {
+                "name": "com.example.myapplicationlogin.WelcomeAbility",
+                "description": "$string:welcomeability_description",
+                "icon": "$media:Timer",
+                "label": "$string:entry_WelcomeAbility",
+                "type": "page",
+                "launchType": "standard",
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+                            "extra": ""
+                        }
+                    ]
+                },
+                "orientation": "unspecified",
+                "homeAbility": false
+            }
+        ],
+        "mainAbility": "com.example.myapplicationlogin.MainAbility",
+        "package": "com.example.myapplicationlogin"
+    }
+}

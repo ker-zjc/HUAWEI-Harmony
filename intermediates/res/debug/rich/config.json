@@ -1,0 +1,110 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 4,
+            "releaseType": "Release",
+            "target": 5
+        },
+        "vendor": "example",
+        "bundleName": "com.example.myapplicationlogin",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777229,
+                "orientation": "unspecified",
+                "icon": "$media:Timer",
+                "description": "$string:mainability_description",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "homeAbility": true,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "extra": "",
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+                        }
+                    ]
+                },
+                "descriptionId": 16777226,
+                "labelId": 16777219,
+                "name": "com.example.myapplicationlogin.MainAbility",
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777229,
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "extra": "",
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+                        }
+                    ]
+                },
+                "orientation": "unspecified",
+                "descriptionId": 16777224,
+                "labelId": 16777218,
+                "icon": "$media:Timer",
+                "name": "com.example.myapplicationlogin.LoginAbility",
+                "description": "$string:loginability_description",
+                "label": "$string:entry_LoginAbility",
+                "type": "page",
+                "homeAbility": false,
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777229,
+                "metaData": {
+                    "customizeData": [
+                        {
+                            "extra": "",
+                            "name": "hwc-theme",
+                            "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+                        }
+                    ]
+                },
+                "orientation": "unspecified",
+                "descriptionId": 16777228,
+                "labelId": 16777220,
+                "icon": "$media:Timer",
+                "name": "com.example.myapplicationlogin.WelcomeAbility",
+                "description": "$string:welcomeability_description",
+                "label": "$string:entry_WelcomeAbility",
+                "type": "page",
+                "homeAbility": false,
+                "launchType": "standard"
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "mainAbility": "com.example.myapplicationlogin.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.example.myapplicationlogin",
+        "name": ".MyApplication"
+    }
+}
