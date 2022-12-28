@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FF00FFF7"
+    ohos:orientation="vertical"
+    ohos:padding="30vp">
+
+    <TickTimer
+        ohos:id="$+id:tick_timer"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:center_in_parent="true"
+        ohos:horizontal_center="true"
+        ohos:text="00:00:00"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_color="#FF000000"
+        ohos:text_size="70fp"/>
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="160vp"
+        ohos:text_size="50fp"
+        ohos:text="▶"
+        ohos:text_font="HwChinese-medium"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="80vp"
+        ohos:left_padding="80vp"
+        ohos:text_color="#FF000000"
+        ohos:background_element="#FF8CFCFF"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"/>
+
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="○"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_size="105fp"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        ohos:text_color="#FFE5F5FF"
+        />
+    <Text
+        ohos:id="$+id:text_info"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="25fp"
+        ohos:text_font="HwChinese-medium"
+        ohos:align_parent_top="true"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="0vp"
+        ohos:right_padding="0vp"
+        ohos:text_color="#FF000000"
+        />
+
+    <Button
+        ohos:id="$+id:btn_return_login"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="40vp"
+        ohos:right_margin="10vp"
+        ohos:bottom_padding="20vp"
+        ohos:left_padding="0vp"
+        ohos:text="  返回"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_color="#FF025451"
+        ohos:background_element="#FF00FFF7"
+        ohos:padding="20vp"
+        ohos:text_size="30vp"
+        />
+
+
+</DependentLayout>

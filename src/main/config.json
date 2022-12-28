@@ -1,0 +1,97 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplicationlogin",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.myapplicationlogin",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.myapplicationlogin.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+
+      {
+        "metaData":{
+          "customizeData":[
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        },
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+
+
+        "orientation": "unspecified",
+        "name": "com.example.myapplicationlogin.MainAbility",
+        "icon": "$media:Timer",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "metaData":{
+          "customizeData":[
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        },
+        "orientation": "unspecified",
+        "name": "com.example.myapplicationlogin.LoginAbility",
+        "icon": "$media:Timer",
+        "description": "$string:loginability_description",
+        "label": "$string:entry_LoginAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "metaData":{
+          "customizeData":[
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        },
+        "orientation": "unspecified",
+        "name": "com.example.myapplicationlogin.WelcomeAbility",
+        "icon": "$media:Timer",
+        "description": "$string:welcomeability_description",
+        "label": "$string:entry_WelcomeAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+
+
+    ]
+  }
+}

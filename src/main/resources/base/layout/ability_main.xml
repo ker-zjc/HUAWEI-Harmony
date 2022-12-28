@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFFFFFFF"
+    ohos:padding="10vp"
+    ohos:orientation="vertical">
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="left"
+        ohos:text="欢迎使用计时器"
+        ohos:margin="80vp"
+        ohos:text_size="25vp"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_color="#FF47998F"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="left"
+        ohos:text="输入你的用户名："
+        ohos:margin="25vp"
+        ohos:text_size="20vp"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_color="#FF8F8F8F"
+        />
+
+    <TextField
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:margin="20vp"
+        ohos:background_element="#FFECEAEA"
+        ohos:text_color="#FF000000"
+        ohos:text_alignment="center"
+        ohos:text_size="30vp"
+        ohos:text="ZJC"
+        ohos:text_font="HwChinese-medium"
+        ohos:id="$+id:username"
+        />
+    <Button
+        ohos:id="$+id:btn_next"
+        ohos:width="200vp"
+        ohos:height="60vp"
+        ohos:text_size="30fp"
+        ohos:text_color="#FFFFFFFF"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="下一步"
+        ohos:text_font="HwChinese-medium"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:margin="1vp"
+        ohos:padding="1vp"
+        />
+
+
+</DirectionalLayout>
